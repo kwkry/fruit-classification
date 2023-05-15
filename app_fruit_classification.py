@@ -14,7 +14,7 @@ def main():
    
     @st.cache_resource
     def load_model():
-        model = tf.keras.models.load_model('model_fruit_classificaiton.hdf5')
+        model = tf.keras.models.load_model('model_fruit_classification.hdf5')
         return model
     
     def import_and_predict(image_data, model):
