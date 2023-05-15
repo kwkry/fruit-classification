@@ -29,7 +29,7 @@ def main():
     model = load_model()
     class_names = ["Apple", "Banana", "Carambola", 
                    "Guava", "Kiwi", "Mango", 
-                   "muskmelon", "Orange", "Peach", 
+                   "Muskmelon", "Orange", "Peach", 
                    "Pear", "Persimmon", "Pitaya", 
                    "Plum", "Pomegranate", "Tomatoes"]
     
