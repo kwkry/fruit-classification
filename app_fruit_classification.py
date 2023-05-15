@@ -6,6 +6,7 @@ import cv2
 
 def main():
     # set up the Streamlit app
+    st.set_page_config(page_title="Fruit Classifier App", page_icon="🍎")
     st.write("Name: Vince Kurt C. Agripa")
     st.write("Section: CPE32S6")
     st.title("Fruit Classifier App")
