@@ -10,7 +10,7 @@ def main():
     st.write("Name: Vince Kurt C. Agripa")
     st.write("Section: CPE32S6")
     st.title("Fruit Classifier App")
-    st.write("This is a fruit classification application, where it classes whether the fruit is an apple, banana, carambola, guava, kiwi, mango, muskmelon, orange, peach, pear, persimmon, pitaya, plum, pomegranate, tomatoes.")
+    st.write("This is a fruit classification application that determines whether a fruit is an apple, banana, carambola, guava, kiwi, mango, muskmelon, orange, peach, pear, persimmon, pitaya, plum, pomegranate, or tomato.")
     st.write("### Classify your fruit image!")
    
     @st.cache_resource
