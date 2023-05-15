@@ -34,7 +34,7 @@ def main():
                    "Plum", "Pomegranate", "Tomatoes"]
     
 
-    file = st.file_uploader("Upload a fruit picture", type=["jpg", "png", "jpeg"])
+    file = st.file_uploader("Upload a fruit picture", type=["jpg", "png", "jpeg", "webp"])
 
     if file is None:
         st.text("Please upload an image file")
