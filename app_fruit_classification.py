@@ -11,6 +11,7 @@ def main():
     st.write("Section: CPE32S6")
     st.title("Fruit Classifier App")
     st.write("This is a fruit classification application that determines whether a fruit is an apple, banana, carambola, guava, kiwi, mango, muskmelon, orange, peach, pear, persimmon, pitaya, plum, pomegranate, or tomato.")
+    st.write("Although it can only predict better on top-view fruit images.")
     st.write("### Classify your fruit image!")
    
     @st.cache_resource
@@ -35,7 +36,7 @@ def main():
                    "Plum", "Pomegranate", "Tomatoes"]
     
 
-    file = st.file_uploader("Upload a fruit picture", type=["jpg", "png", "jpeg", "webp"])
+    file = st.file_uploader("Upload a top view of a fruit picture", type=["jpg", "png", "jpeg", "webp"])
 
     if file is None:
         st.text("Please upload an image file")
